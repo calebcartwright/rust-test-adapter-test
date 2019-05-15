@@ -1,0 +1,6 @@
+[package]
+name = "rust-test-adapter-test"
+version = "0.1.0"
+authors = ["calebcartwright <caleb.cartwright@outlook.com>"]
+edition = "2018"
+
