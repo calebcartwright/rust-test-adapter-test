@@ -1,12 +1,6 @@
-fn main() {
-    println!("Hello, world!");
+#[test]
+fn basic_tests() {
+    assert_eq!(1 == 2, true);
 }
 
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+fn main() {}
